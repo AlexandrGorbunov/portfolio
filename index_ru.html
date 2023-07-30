@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+	<link rel="stylesheet" href="style.css">
+	
+	<title>Александр Горбунов</title>
+</head>
+<body>
+	<div class="loader-clip clip-top"></div>
+	<div class="loader-clip clip-bottom"></div>	
+	<div class="container">
+		<nav class="menu">
+			<a href="index_ru.html">Главная</a>
+			<div class="menu-link">
+				<a href="#about" onclick="toggleSection('about')">Обо мне</a>
+				<a href="#projects" onclick="toggleSection('projects')">Проекты</a>
+				<a href="#contact" onclick="toggleSection('contact')">Контакты</a>
+			</div>
+		</nav>
+		
+		<!--=========== HERO SECTION =========== -->
+		
+		<section class="hero-content" id="hero-content">
+			<h2 class="sub-title">Фронтенд разработчик</h2>
+			<h1 class="title">Александр Горбунов</h1>
+			<div class="btns">
+				<a href="mailto:alexandrgorbunov1993@gmai.com?body=Привет! Рад Вас видеть!" class="btn left-btn"><i class="bi bi-envelope"></i> Связаться со мной</a>
+				<a href="#" class="btn right-btn"><i class="bi bi-arrow-down-circle"></i> Скачать резюме</a>
+			</div>
+		</section>
+		
+		<!--=========== ABOUT SECTION =========== -->
+
+		<section class="hidden" id="about">
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="about-content">
+							<div class="about-text">
+								<h2>Обо мне</h2>
+								<p> Всем привет, меня зовут Александр, и я фронтенд-разработчик с годом опыта.</p>
+								<p> Моим основным направлением в работе является разработка веб-сайтов и веб-приложений. Я стремлюсь создавать привлекательные и удобные интерфейсы для пользователей, обеспечивая при этом высокую производительность и отзывчивость веб-приложений.</p>
+								<p> У меня хорошие знания HTML, CSS и JavaScript, а также опыт работы с современными фреймворками и библиотеками, такими как React. Я также знаком с принципами адаптивного дизайна и оптимизации производительности веб-сайтов.</p>
+								<p> Я всегда открыт для новых вызовов и стараюсь постоянно совершенствоваться в области разработки интерфейса. Если вы заинтересованы в моих навыках и опыте, не стесняйтесь обращаться ко мне.</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide slide-skills">
+						<div class="about-content">
+							<div class="skills-text">
+								<h2>Навыки</h2>
+								<ul>
+									<li><span>HTML</span> и <span>CSS</span>: владение базовыми HTML-тегами, элементами оформления с использованием CSS.</li>
+									<li><span>JavaScript</span>: хорошее понимание языка JavaScript и его основных концепций, таких как переменные, функции, объекты, массивы, условные операторы, циклы, асинхронность и т.д.</li>
+									<li>Фреймворки и библиотеки: Введение в популярные фреймворки и библиотеки, такие как <span>React</span>, для разработки современных веб-приложений.</li>
+									<li><промежуток>Node.js </span>: знание сервера узлов platform.js для разработки серверной части приложений.</li>
+									<li>Управление версиями: Опыт работы с системами контроля версий, такими как <span>Git</span> для эффективной командной работы и отслеживания изменений кода.</li>
+									<li>Стиль: Знание препроцессоров CSS, таких как <span>SCSS</span> или <span>SASS</span>, для эффективного оформления веб-приложений.</li>
+									<li>Архитектурные концепции: знание принципов <span>BEM</span> (блок, элемент, модификатор) для организации и структурирования CSS-кода.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide slide-education">
+						<div class="about-content">
+							<div class="education-text">
+								<h2>Образование</h2>
+								<p>Университет ИТМО: Факультет компьютерной инженерии и дизайна. Профессия: Веб-разработчик.</p>
+								<p>Сертификат - Stepik. Веб-разработка: HTML и CSS</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+				
+				<div class="swiper-scrollbar"></div>
+			</div>
+		</section>
+			
+		<!-- ============= PROJECTS SECTION========== -->
+			
+		<section class="hidden" id="projects">
+			<div class="card">
+				<img src="img/project_1.png" alt="img">
+				<h3>Приложение "Блог"</h3>
+				<p>Создал веб-приложения с нуля, где использовал полный стек технологий MERN, и паттерн MVC. Рзработанный функционал связан с базой данных, регистрацией, аутентификацией пользователя, добавлением, редактированием, и удалением статей.</p>
+				<div class="card-links">
+					<a href="https://blog-client-v6mh.onrender.com">Подробнее <i class="bi bi-arrow-right"></i></a>
+				</div>
+			</div>
+			<div class="card">
+				<img src="img/project_lorem.png" alt="img">
+				<h3>Lorem</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, at veniam quos, obcaecati aliquid amet dignissimos magni laborum ducimus unde rerum ab quis alias id, voluptas aut voluptatum perferendis nesciunt.</p>
+				<div class="card-links">
+					<a href="#">Подробнее <i class="bi bi-arrow-right"></i></a>
+				</div>
+			</div>
+			<div class="card">
+				<img src="img/project_lorem.png" alt="img">
+				<h3>Lorem</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corporis dolorum harum sunt suscipit aliquid ratione, voluptatibus error, tempore fugit maiores! Sequi laboriosam officia, repellat repellendus id nemo saepe earum.</p>
+				<div class="card-links">
+					<a href="#">Подробнее <i class="bi bi-arrow-right"></i></a>
+				</div>
+			</div>
+		</section>
+		
+		<!-- =================CONTACT SECTION ============== -->
+
+		<section class="hidden" id="contact">
+			<div class="feedback-form">
+				<div class="info-content">
+					<p>Россия, Санкт-Петербург</p>
+					<p>+7 (964) 366 70 58</p>
+					<p>AlexandrGorbunov1993@gmail.com</p>
+				</div>
+				<div class="contact-text">
+					<h3>Хотите узнать больше?</h3>
+					<p>Напишите мне письмо</p>
+				</div>
+				<div class="btns">
+					<a href="mailto:alexandrgorbunov1993@gmai.com?body=Hello! Nice to see You!" class="btn left-btn"><i class="bi bi-envelope"></i> Связаться со мной</a>
+					<a href="#" class="btn right-btn"><i class="bi bi-arrow-down-circle"></i> Скачать резюме</a>
+				</div>
+			</div>
+		</section>
+		
+		<!-- =============== FOOTER =========== -->
+		
+		<div class="footer">
+			<a class="lang" id="langSwitch" href="#" onclick="toggleLanguage()">RU</a>
+			<div class="icon">
+				<a href="https://github.com/AlexandrGorbunov"><img src="img/github.png" alt="img"></a>
+				<!-- <a href="#"><img src="img/linkedin.png" alt="img"></a> -->
+				<a href="https://t.me/alexander_gorbunov_info"><img src="img/telegram.png" alt="img"></a>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>		
+	<script src="script.js"></script>
+</body>
+</html>
