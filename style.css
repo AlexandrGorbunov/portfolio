@@ -156,6 +156,7 @@ a {
 	font-weight: 300;
 }
 .skills-text ul li {
+	list-style: none;
 	font-weight: 300;
 }
 .education-text p {
